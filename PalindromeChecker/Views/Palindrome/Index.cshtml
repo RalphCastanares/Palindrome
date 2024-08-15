@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Palindrome Checker";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <form id="checkForm">
+        <input type="number" id="txtNumberInput" placeholder="Enter a number" required />
+        <button type="submit">Check</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
+@section Scripts {
+    <script src="~/Scripts/Palindrome.js"></script>
+}
